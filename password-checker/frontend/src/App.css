@@ -1,0 +1,53 @@
+.password-strength-meter {
+  transition: all 0.3s ease;
+}
+
+.password-strength-0 {
+  background-color: #ef4444;
+}
+
+.password-strength-1 {
+  background-color: #f97316;
+}
+
+.password-strength-2 {
+  background-color: #eab308;
+}
+
+.password-strength-3 {
+  background-color: #84cc16;
+}
+
+.password-strength-4 {
+  background-color: #22c55e;
+}
+
+.fade-in {
+  animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.slide-in {
+  animation: slideIn 0.4s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
